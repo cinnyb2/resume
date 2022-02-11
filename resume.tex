@@ -1,0 +1,258 @@
+
+% \title{BCIT Resume}
+% \author{xian.liu }
+% \date{January 2022}
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+\usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% experience
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt} % original -7
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+% projects
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Cindy Liu} \\ \vspace{1pt}
+    \small +1 647-639-5158 \hspace{1pt} $|$ \hspace{1pt}
+    {\faIcon{envelope}}
+    \href{mailto:xian.liu@alum.utoronto.ca}{\underline{xian.liu@alum.utoronto.ca}} \hspace{1pt} $|$ \hspace{1pt}   
+    \textcolor{blue}{\faIcon{linkedin}}
+    \href{https://www.linkedin.com/in/cinnyb2/}
+    {\underline{cinnyb2}} \hspace{1pt} $|$ \hspace{1pt}
+    \textcolor{orange}{\faIcon{github}}
+    \href{https://github.com/cinnyb2/}
+    {\underline{cinnyb2}}
+    
+     
+\end{center}
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, R, Java, C++, C} \\
+     \textbf{Web Development}{: React, HTML, CSS, Javascript, Node.js, Entity, .NET, Bootstrap} \\
+     \textbf{Database}{: MySQL, PostgresSQL, Firebase} \\
+     \textbf{Tools}{: TestRail, Jira, Git, Docker, Bash, FSL, Node-RED, Figma, Postman, Lucidchart, LaTeX} \\
+%      \textbf{Libraries & Frameworks}{: pandas, NumPy, MNE, }
+     
+\end{itemize}
+
+
+%-------------------------------------------
+
+%-----------EXPERIENCE-----------
+
+\section{Experience}
+%     \resumeSubheading
+\resumeSubHeadingListStart
+\resumeSubheading
+    {Software Developer Intern}{May. 2022 -- Dec. 2022}
+    {Vidyard}{Remote}
+\resumeSubheading
+    {Junior Full Stack developer}{Jan. 2022 -- Present}
+    {Calico Logic}{Vancouver, BC}
+\resumeSubheading
+    {Application Analyst Intern}{Aug. 2021 -- Dec. 2021}
+    {Serco Inc.}{Remote}
+    \resumeItemListStart
+       \resumeItem{Analyzed and summarized Google Analytics into easy to understand interactive data visualizations and create\\ UML diagrams to explain business needs and use cases \emph{(SQL, Google Analytics, Lucidchart, Excel)}}
+        \resumeItem{Implemented bug fixes and stylistic improvements with the web development team on a website with more than 10,000 daily users \emph{(Angular, CSS, HTML)}}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+    {Software QA Intern}{May 2021 -- Aug. 2021}
+    {Serco Inc.}{Remote}
+    \resumeItemListStart
+       \resumeItem{Planned, coordinated and implemented both manual and automated testing projects in a timely manner to ensure that applications are within system requirements \emph{(Jira, TestRail)}}
+        \resumeItem{Worked collaboratively with QA, IT, development, and business groups to complete comprehensive testing \\ on 5 major new releases, one of which reduced bandwidth and improved user's login wait time by 30 minutes}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Developer/ Product Designer}{Jan. 2020 -- Apr. 2021}
+      {Neurotech University of Toronto, Headset Team}{Toronto, ON}
+      \resumeItemListStart
+       \resumeItem{Involved in the end-to-end development of a EEG headset that was awarded 3rd place in NeuroTechX Student Headset Competition \emph{(Python, Docker, Arduino, CAD, Git)}
+        \resumeItem{Developed application using Python to map electrode placements to user's unique head according to 10/20 system}
+        %\resumeItem{Conduct UX research on targeted users and stakeholders}
+      \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Special Histology Research Assistant}{Oct. 2018 -- May 2019}
+%       {Mount Sinai Health System}{Toronto, ON}
+%       \resumeItemListStart
+%         \resumeItem{Coordinated patient's enrollment into the appropriate clinical trials}
+%         \resumeItem{Organized patient tissue slides and ensured timely and accurate delivery to several departments}
+%         %\resumeItem{Maintain up to date record of patient's treatment condition}
+%     \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Animal Behaviour Research Assistant}{May 2018 -- Oct. 2018}
+%       {University of Toronto}{Toronto, ON}
+%       \resumeItemListStart
+%         \resumeItem{Conducted behavioral analysis and research to assess the sexual dimorphism between male Trinidad guppies under the supervision of the Chair of the Ecology Department Dr. Robb}}
+        %\resumeItem{Identified the evolutionary cause for female attraction to certain characteristics}
+      %\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart 
+    \resumeProjectHeading
+          {\textbf{SmartShopper} $|$ \emph{HTML, CSS, Javascript, Firebase, Bootstrap, Figma, Git}}{ Oct. 2021 -- Dec. 2021}
+          \resumeItemListStart
+            \resumeItem{{Collaborated with 2 computing students to create a web application that allows users to filter reviews, price, and availability by interacting with a user friendly UI that communicates with the database}}
+          \resumeItemListEnd
+          
+     \resumeProjectHeading
+     {\textbf{2021} $|$ \emph{Python, Git, Lucidchart}}
+     {Nov. 2021}
+          \resumeItemListStart
+            \resumeItem{Developed a text-based role-play adventure game based on true events that happened in 2021}
+              \resumeItemListEnd
+              
+    \resumeProjectHeading
+          {\textbf{apneAI} $|$ \emph{Python, R, Git}}
+          {Mar. 2021}
+          \resumeItemListStart
+            \resumeItem{Developed a software that read brain (EEG) signals and automatically predict apnea events during sleep using Gaussian Naive Bayes Classifier ML algorithm}
+              \resumeItem{Conducted feature extraction to differentiate between apnea and non-apnea and classify them into different epochs as inputs to the training model }}
+          \resumeItemListEnd
+     %\resumeProjectHeading
+          %{\textbf{Savergy} $|$ \emph{Figma}}{Feb. %2021}
+          %\resumeItemListStart
+           % \resumeItem{Developed an application prototype and business pitch that helps to conserve electricity and water usage for the Manulife Product Design Challenge}
+            %\resumeItem{Collaborated with 5 students from different backgrounds on creating deployable product that uses behavioural science to modify consumer's behaviour}
+        %  \resumeItemListEnd
+        
+
+        
+%       \resumeProjectHeading
+%           {\textbf{Project Lumos} $|$ \emph{Python, Docker, Arduino, CAD, Git }}{ Apr. 2020 -- Nov. 2020}
+%           \resumeItemListStart
+%             \resumeItem{Involved in the end-to-end development of a functional EEG headset product}
+%             \resumeItem{{Awarded 3rd place in NeuroTechX Student Headset Competition}}
+%             %\resumeItem{Collaborated with a team of 6 software engineers and hardware engineers}
+%             %\resumeItem{Researched signal optimization and enhanced the comfort of the product}
+%           \resumeItemListEnd
+          
+          \resumeProjectHeading
+          {\textbf{Smart Stove} $|$ \emph{C ++, JavaScript, Git, Node-RED, Arduino, Adobe XD}}{Mar. 2020}
+          \resumeItemListStart
+            \resumeItem{Developed product that monitors the temperature, gas level, and humidity, was awarded Best Hardware Hack}
+%             \resumeItem{{Awarded the Best Hardware Hack}}
+            \resumeItem{Implemented continuous delivery of real-time data to user's mobile or desktop device with graphs and meter visualization}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+  %-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Toronto, Trinity College}{Toronto, ON}
+      {Honours Bachelor of Science in Neuroscience and Ecology \& Evolutionary Biology}{Sept. 2016 -- Jun. 2021}
+      
+%       \smallskip \smallskip
+      
+%       {Courses: Intro Python, Human Computer Interaction, Statistics for Data Science, History of Artificial Intelligence, and Computers \& Society}
+     \resumeSubheading
+      {British Columbia Institute of Technology} {Vancouver, BC}
+      {Diploma in Computer Systems Technology}{Sept. 2021 -- Jun. 2023}
+ 
+  \resumeSubHeadingListEnd
+
+\end{document}
