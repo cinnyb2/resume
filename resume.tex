@@ -1,7 +1,9 @@
 
 % \title{BCIT Resume}
 % \author{xian.liu }
-% \date{January 2022}
+% \date{March 2022}
+
+
 
 \documentclass[letterpaper,11pt]{article}
 
@@ -22,6 +24,14 @@
 
 
 %----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
 \usepackage{charter}
 
 
@@ -101,6 +111,10 @@
 \begin{document}
 
 %----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
 
 \begin{center}
     \textbf{\Huge \scshape Cindy Liu} \\ \vspace{1pt}
@@ -122,9 +136,9 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Programming Languages}{: Python, R, Java, C++, C} \\
-     \textbf{Web Development}{: React, HTML, CSS, Javascript, Node.js, Entity, .NET, Bootstrap} \\
-     \textbf{Database}{: MySQL, PostgresSQL, Firebase} \\
+     \textbf{Programming Languages}{: Python, SQL, Java, C++, C } \\
+     \textbf{Web Development}{: React, HTML, CSS, Javascript, Node.js, ASP.NET Core, Bootstrap} \\
+     \textbf{Databases}{: MySQL, PostgresSQL, Firebase} \\
      \textbf{Tools}{: TestRail, Jira, Git, Docker, Bash, FSL, Node-RED, Figma, Postman, Lucidchart, LaTeX} \\
 %      \textbf{Libraries & Frameworks}{: pandas, NumPy, MNE, }
      
@@ -142,13 +156,16 @@
     {Software Developer Intern}{May. 2022 -- Dec. 2022}
     {Vidyard}{Remote}
 \resumeSubheading
-    {Junior Full Stack developer}{Jan. 2022 -- Present}
+    {Junior Full Stack Developer}{Jan. 2022 -- April 2022}
     {Calico Logic}{Vancouver, BC}
+        % \resumeItemListStart
+        %   \resumeItem{Build web pages \emph{(#C, ASP.NET CORE, React, Postgres)}}
+        % \resumeItemListEnd
 \resumeSubheading
     {Application Analyst Intern}{Aug. 2021 -- Dec. 2021}
     {Serco Inc.}{Remote}
     \resumeItemListStart
-       \resumeItem{Analyzed and summarized Google Analytics into easy to understand interactive data visualizations and create\\ UML diagrams to explain business needs and use cases \emph{(SQL, Google Analytics, Lucidchart, Excel)}}
+       \resumeItem{Analyzed and summarized Google Analytics into easy to understand interactive data visualizations and create\\ UML diagrams to explain business needs and use cases \emph{(Microsoft SQL Sever, Google Analytics, Lucidchart, Excel)}}
         \resumeItem{Implemented bug fixes and stylistic improvements with the web development team on a website with more than 10,000 daily users \emph{(Angular, CSS, HTML)}}
       \resumeItemListEnd
       
@@ -168,6 +185,16 @@
         \resumeItem{Developed application using Python to map electrode placements to user's unique head according to 10/20 system}
         %\resumeItem{Conduct UX research on targeted users and stakeholders}
       \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
 
 %     \resumeSubheading
 %       {Special Histology Research Assistant}{Oct. 2018 -- May 2019}
@@ -193,20 +220,28 @@
 \section{Projects}
     \resumeSubHeadingListStart 
     \resumeProjectHeading
-          {\textbf{SmartShopper} $|$ \emph{HTML, CSS, Javascript, Firebase, Bootstrap, Figma, Git}}{ Oct. 2021 -- Dec. 2021}
+           {\href{https://devpost.com/software/senior-connect-loam6n}{\textbf{LinkAge}}$|$ \emph{ Twilio API, HTML, CSS, Javascript, Firebase, Bootstrap, Figma, Git}}
+          {Mar. 2022}
           \resumeItemListStart
-            \resumeItem{{Collaborated with 2 computing students to create a web application that allows users to filter reviews, price, and availability by interacting with a user friendly UI that communicates with the database}}
+            \resumeItem{{Web application created to alleviate loneliness in the elderly by connecting them to vetted volunteers through video and text chats, \textbf{winner of Telus, Hootsuite,} and \textbf{Twilio challenges}}}
           \resumeItemListEnd
+
+%     \resumeSubHeadingListStart 
+    % \resumeProjectHeading
+    %       {\textbf{SmartShopper} $|$ \emph{HTML, CSS, Javascript, Firebase, Bootstrap, Figma, Git}}{ Oct. 2021 -- Dec. 2021}
+    %       \resumeItemListStart
+    %         \resumeItem{{Collaborated with 2 computing students to create a web application that allows users to filter reviews, price, and availability by interacting with a user friendly UI that communicates with the database}}
+    %       \resumeItemListEnd
           
      \resumeProjectHeading
-     {\textbf{2021} $|$ \emph{Python, Git, Lucidchart}}
+     {\href{https://github.com/cinnyb2/2020}{\textbf{2021}} $|$ \emph{Python, Git, Lucidchart}}
      {Nov. 2021}
           \resumeItemListStart
             \resumeItem{Developed a text-based role-play adventure game based on true events that happened in 2021}
               \resumeItemListEnd
               
     \resumeProjectHeading
-          {\textbf{apneAI} $|$ \emph{Python, R, Git}}
+          {\href{https://github.com/cinnyb2/apneAI}{\textbf{apneAI}} $|$ \emph{Python, R, Git}}
           {Mar. 2021}
           \resumeItemListStart
             \resumeItem{Developed a software that read brain (EEG) signals and automatically predict apnea events during sleep using Gaussian Naive Bayes Classifier ML algorithm}
@@ -231,9 +266,9 @@
 %           \resumeItemListEnd
           
           \resumeProjectHeading
-          {\textbf{Smart Stove} $|$ \emph{C ++, JavaScript, Git, Node-RED, Arduino, Adobe XD}}{Mar. 2020}
+          {\href{https://devpost.com/software/smart-stove}{\textbf{Smart Stove}} $|$ \emph{C ++, JavaScript, Git, Node-RED, Arduino, Adobe XD}}{Mar. 2020}
           \resumeItemListStart
-            \resumeItem{Developed product that monitors the temperature, gas level, and humidity, was awarded Best Hardware Hack}
+            \resumeItem{Developed product that monitors the temperature, gas level, and humidity, was \textbf{awarded Best Hardware Hack}}
 %             \resumeItem{{Awarded the Best Hardware Hack}}
             \resumeItem{Implemented continuous delivery of real-time data to user's mobile or desktop device with graphs and meter visualization}
           \resumeItemListEnd
