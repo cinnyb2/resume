@@ -1,11 +1,11 @@
 
-% \title{BCIT Resume}
-% \author{xian.liu }
-% \date{March 14 2022}
+% \title{Resume}
+% \author{Cindy Liu}
+% \date{August 2022}
 
 
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -24,14 +24,6 @@
 
 
 %----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
 \usepackage{charter}
 
 
@@ -111,10 +103,6 @@
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
 
 \begin{center}
     \textbf{\Huge \scshape Cindy Liu} \\ \vspace{1pt}
@@ -136,31 +124,40 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Programming Languages}{: Python, SQL, Java, C++, C } \\
-     \textbf{Web Development}{: React, HTML, CSS, Javascript, Node.js, ASP.NET Core, Bootstrap} \\
-     \textbf{Databases}{: MySQL, PostgresSQL, Firebase} \\
-     \textbf{Tools}{: TestRail, Jira, Git, Docker, Bash, FSL, Node-RED, Figma, Postman, Lucidchart, LaTeX} \\
-%      \textbf{Libraries & Frameworks}{: pandas, NumPy, MNE, }
-     
+     \textbf{Programming Languages}{: Python, SQL, Ruby, JavaScript, TypeScript, Java, C/C++ } \\
+     \textbf{Frameworks and Databases}{: Ruby on Rails, Vue.js, React, Node.js, Jest.js, Knex.js, MySQL, PostgresSQL} \\
+     \textbf{Tools}{: Git, Docker, AWS, Kubernetes, Jira, TestRail, DataDog, CI/CD, LaTeX} \\
+  
 \end{itemize}
 
-
-%-------------------------------------------
 
 %-----------EXPERIENCE-----------
 
 \section{Experience}
-%     \resumeSubheading
+
 \resumeSubHeadingListStart
 \resumeSubheading
-    {Software Developer Intern}{May. 2022 -- Dec. 2022}
+    {Software Developer Intern}{Aug. 2022 -- Dec. 2022}
     {Vidyard}{Remote}
+  \resumeSubheading
+    {Software Developer Intern}{May. 2022 -- Aug. 2022}
+    {Vidyard}{Remote}
+         \resumeItemListStart
+          \resumeItem{Implemented key scripts to address Youtube API security vulnerabilities within the platform and automate the process of recording analytic to monitor future vulnerabilities \emph{(Node.js, TypeScript, Knex.js, Objection.js MySQL, DataDog)}}
+           \resumeItem{Lead mini project as sole developer with product manager and UX designer to revamp the front-end administrative flow of the user's page and fix critical bugs, reducing the number of support calls regarding project\% \emph{(Vue.js, JavaScript, Jest.js)}}
+            \resumeItem{Manage data migrations and implemented new endpoints in the database for tables with $>$ 2 million columns \emph{(Rails, Jest.js)}}
+            \resumeItem{Actively Refactoring legacy code and replacing the contents with clean scalable code that has high unit test coverage and is easily maintained}
+           \resumeItemListEnd
 \resumeSubheading
     {Junior Full Stack Developer}{Jan. 2022 -- April 2022}
     {Calico Logic}{Vancouver, BC}
-        % \resumeItemListStart
-        %   \resumeItem{Build web pages \emph{(#C, ASP.NET CORE, React, Postgres)}}
-        % \resumeItemListEnd
+        \resumeItemListStart
+          \resumeItem{Integrated core automated PDF generator feature that pipeline user data from the database and generate a personalized report, increasing efficiency by 80\% and reducing the number of staff needed by 50\% \emph{(Vue.js, FastAPI, WeasyPrint, Python, PostgreSQL)}}
+          \resumeItem{Coordinated with head software engineer to identify the features that needs to be implemented according to the client's requirements and completed the MVP product in 6 months}
+            \resumeItem{Designed and implemented two new API endpoints for two separate user flow}
+          \resumeItem{Improved mobile user experience by adapting a mobile first design methodology and transforming the web application to be responsive on all devices \emph{(React, $\#C$, ASP.NET CORE, Swagger)}}
+        \resumeItemListEnd
+       
 \resumeSubheading
     {Application Analyst Intern}{Aug. 2021 -- Dec. 2021}
     {Serco Inc.}{Remote}
@@ -176,103 +173,36 @@
        \resumeItem{Planned, coordinated and implemented both manual and automated testing projects in a timely manner to ensure that applications are within system requirements \emph{(Jira, TestRail)}}
         \resumeItem{Worked collaboratively with QA, IT, development, and business groups to complete comprehensive testing \\ on 5 major new releases, one of which reduced bandwidth and improved user's login wait time by 30 minutes}
       \resumeItemListEnd
-      
-    \resumeSubheading
-      {Developer/ Product Designer}{Jan. 2020 -- Apr. 2021}
-      {Neurotech University of Toronto, Headset Team}{Toronto, ON}
-      \resumeItemListStart
-       \resumeItem{Involved in the end-to-end development of a EEG headset that was awarded 3rd place in NeuroTechX Student Headset Competition \emph{(Python, Docker, Arduino, CAD, Git)}
-        \resumeItem{Developed application using Python to map electrode placements to user's unique head according to 10/20 system}
-        %\resumeItem{Conduct UX research on targeted users and stakeholders}
-      \resumeItemListEnd
-      
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
-
-%     \resumeSubheading
-%       {Special Histology Research Assistant}{Oct. 2018 -- May 2019}
-%       {Mount Sinai Health System}{Toronto, ON}
-%       \resumeItemListStart
-%         \resumeItem{Coordinated patient's enrollment into the appropriate clinical trials}
-%         \resumeItem{Organized patient tissue slides and ensured timely and accurate delivery to several departments}
-%         %\resumeItem{Maintain up to date record of patient's treatment condition}
-%     \resumeItemListEnd
-
-%     \resumeSubheading
-%       {Animal Behaviour Research Assistant}{May 2018 -- Oct. 2018}
-%       {University of Toronto}{Toronto, ON}
-%       \resumeItemListStart
-%         \resumeItem{Conducted behavioral analysis and research to assess the sexual dimorphism between male Trinidad guppies under the supervision of the Chair of the Ecology Department Dr. Robb}}
-        %\resumeItem{Identified the evolutionary cause for female attraction to certain characteristics}
-      %\resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------
 \section{Projects}
+
     \resumeSubHeadingListStart 
     \resumeProjectHeading
-           {\href{https://devpost.com/software/senior-connect-loam6n}{\textbf{LinkAge}}$|$ \emph{ Twilio API, HTML, CSS, Javascript, Firebase, Bootstrap, Figma, Git}}
+           {\href{https://github.com/cinnyb2/Toliet-Buddy}{\textbf{Toilet Buddy}} $|$\emph{ Python, Fast API, Univorn, Google Maps API, Twilio API, Javascript, Firebase, Figma}}
           {Mar. 2022}
           \resumeItemListStart
-            \resumeItem{{Web application created to alleviate loneliness in the elderly by connecting them to vetted volunteers through video and text chats, \textbf{winner of Telus, Hootsuite,} and \textbf{Twilio challenges}}}
+                      \resumeItem{{Web application allows you to find the nearest public washroom in SF and notifies your phone when you are near a washroom \textbf{Awarded Best Data Science Hack}}}
           \resumeItemListEnd
-
-%     \resumeSubHeadingListStart 
-    % \resumeProjectHeading
-    %       {\textbf{SmartShopper} $|$ \emph{HTML, CSS, Javascript, Firebase, Bootstrap, Figma, Git}}{ Oct. 2021 -- Dec. 2021}
-    %       \resumeItemListStart
-    %         \resumeItem{{Collaborated with 2 computing students to create a web application that allows users to filter reviews, price, and availability by interacting with a user friendly UI that communicates with the database}}
-    %       \resumeItemListEnd
           
-     \resumeProjectHeading
-     {\href{https://github.com/cinnyb2/2020}{\textbf{2021}} $|$ \emph{Python, Git, Lucidchart}}
-     {Nov. 2021}
-          \resumeItemListStart
-            \resumeItem{Developed a text-based role-play adventure game based on true events that happened in 2021}
-              \resumeItemListEnd
-              
     \resumeProjectHeading
-          {\href{https://github.com/cinnyb2/apneAI}{\textbf{apneAI}} $|$ \emph{Python, R, Git}}
-          {Mar. 2021}
+           {\href{https://devpost.com/software/senior-connect-loam6n}{\textbf{LinkAge}} $|$ \emph{Twilio API, HTML, CSS, Javascript, Firebase, Bootstrap, Figma, Git}}
+          {Mar. 2022}
           \resumeItemListStart
-            \resumeItem{Developed a software that read brain (EEG) signals and automatically predict apnea events during sleep using Gaussian Naive Bayes Classifier ML algorithm}
-              \resumeItem{Conducted feature extraction to differentiate between apnea and non-apnea and classify them into different epochs as inputs to the training model }}
+                      \resumeItem{{Web application created to alleviate loneliness in the elderly by connecting them to vetted volunteers through video and text chats, \textbf{winners of Telus, Hootsuite,} and \textbf{Twilio challenges}}}
           \resumeItemListEnd
-     %\resumeProjectHeading
-          %{\textbf{Savergy} $|$ \emph{Figma}}{Feb. %2021}
-          %\resumeItemListStart
-           % \resumeItem{Developed an application prototype and business pitch that helps to conserve electricity and water usage for the Manulife Product Design Challenge}
-            %\resumeItem{Collaborated with 5 students from different backgrounds on creating deployable product that uses behavioural science to modify consumer's behaviour}
-        %  \resumeItemListEnd
-        
 
-        
-%       \resumeProjectHeading
-%           {\textbf{Project Lumos} $|$ \emph{Python, Docker, Arduino, CAD, Git }}{ Apr. 2020 -- Nov. 2020}
-%           \resumeItemListStart
-%             \resumeItem{Involved in the end-to-end development of a functional EEG headset product}
-%             \resumeItem{{Awarded 3rd place in NeuroTechX Student Headset Competition}}
-%             %\resumeItem{Collaborated with a team of 6 software engineers and hardware engineers}
-%             %\resumeItem{Researched signal optimization and enhanced the comfort of the product}
-%           \resumeItemListEnd
-          
-          \resumeProjectHeading
+                    \resumeProjectHeading
           {\href{https://devpost.com/software/smart-stove}{\textbf{Smart Stove}} $|$ \emph{C ++, JavaScript, Git, Node-RED, Arduino, Adobe XD}}{Mar. 2020}
           \resumeItemListStart
             \resumeItem{Developed product that monitors the temperature, gas level, and humidity, was \textbf{awarded Best Hardware Hack}}
-%             \resumeItem{{Awarded the Best Hardware Hack}}
             \resumeItem{Implemented continuous delivery of real-time data to user's mobile or desktop device with graphs and meter visualization}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
+
     
   %-----------EDUCATION-----------
 \section{Education}
@@ -286,7 +216,7 @@
 %       {Courses: Intro Python, Human Computer Interaction, Statistics for Data Science, History of Artificial Intelligence, and Computers \& Society}
      \resumeSubheading
       {British Columbia Institute of Technology} {Vancouver, BC}
-      {Diploma in Computer Systems Technology}{Sept. 2021 -- Jun. 2023}
+      {Diploma in Computer Systems Technology}{Sept. 2021 -- Mar. 2022}
  
   \resumeSubHeadingListEnd
 
